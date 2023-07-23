@@ -10,6 +10,9 @@ var bgImageElement = document.getElementById("bg-image");
 // initialCountDownVal = 10;
 var initialCountDownVal = countDownElement.innerHTML;
 
+// The setInterval() function is commonly used to set a delay for
+// functions that are executed again and again, such as animations. 
+
 setInterval(function () {
     initialCountDownVal = initialCountDownVal > 0 ? initialCountDownVal - 1 : 0;
     countDownElement.innerHTML = initialCountDownVal;

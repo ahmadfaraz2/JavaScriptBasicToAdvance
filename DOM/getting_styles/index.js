@@ -29,6 +29,8 @@ initialFontSize = parseInt(initialFontSize.substring(0, (initialFontSize.length 
 btnIncreaseFont.onclick = function () {
     initialFontSize += 10;
     mainHeading.style.fontSize = initialFontSize + "px"; // updating value -- assigning it to mainHeading fontSize 
+    console.log(initialFontSize);
+    console.log(mainHeading.style.fontSize);
 };
 
 
